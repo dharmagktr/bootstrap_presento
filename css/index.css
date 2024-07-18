@@ -1,0 +1,250 @@
+/* :root{
+    --brandColor :#e03a3c;
+} */
+.brandcolor {
+    background-color: #e03a3c !important;
+    color: white !important;
+}
+
+.textcolor {
+    color: #e03a3c;
+}
+
+@font-face {
+    font-family: " Raleway-semibold";
+    src: url(../assets/fonts/Raleway/static/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: " Raleway-regular";
+    src: url(../assets/fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+body {
+    font-family: " Raleway-regular";
+}
+
+.navsection {
+    font-family: " Raleway-semibold";
+}
+
+.banner {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.688), rgba(0, 0, 0, 0.693)), url(../assets/images/bannerimg.jpg);
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+}
+
+.Bettter {
+    font-family: " Raleway-semibold";
+    margin-top: 80px;
+    letter-spacing: 1px;
+}
+
+.talented {
+    /* font-weight: 400; */
+}
+
+.brandhover:hover {
+    color: #e03a3c !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.myob {
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+
+.myob:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.about {
+    font-size: 13px;
+    border: 1px solid #e03a3c;
+}
+
+.secvoluptatem {
+    transform: skewy(-3deg);
+    border-radius: 30px 0 30px 0px;
+}
+
+.voluptatem {
+    transform: skewy(3deg);
+}
+
+.numberssection {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.smile {
+    margin-top: -50px !important;
+}
+
+.modi:hover {
+    color: #e03a3c;
+    cursor: pointer;
+    border: 2px solid #e03a3c !important;
+    transform: scale(1.1);
+    transition: .5s;
+    border-radius: 7px;
+}
+
+.laptopsection:hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.bgDarkBlack {
+    background-color: rgb(8, 1, 14);
+}
+
+.py-6 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.px-6{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.services {
+    border-bottom: 3px solid #e03a3c;
+}
+
+.porthover:hover .portimg {
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+.porthover {
+    overflow: hidden;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+
+.swip {
+    position: relative;
+    height: 100%;
+}
+
+.swip {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.letter-space {
+    letter-spacing: 1px;
+}
+
+.fs-6 {
+    font-size: 15px !important;
+}
+.fs-7{
+font-size: small;
+}
+.my-0{
+    margin-top: 80px!important;
+    margin-bottom: 80px!important;
+}
+
+.text-gold {
+    color: rgb(196, 177, 177);
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    /* color: var(--bs-nav-pills-link-active-color); */
+
+    background-color: #e03a3c;
+}
+
+.nav-link {
+    color: black;
+}
+.nav-link:focus, .nav-link:hover {
+    color: black;
+}
+.locat {
+    border: 1.5px dotted #e03a3c;
+    border-radius: 50%;
+    padding-right: 16px;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+textarea{
+    overflow: hidden;
+}
+.mail{
+    border: 1.5px dotted #e03a3c;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.call{
+    border: 1.5px dotted #e03a3c;
+    border-radius: 50%;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footerBorder{
+    border-bottom: 3px solid #e03a3c;
+    width:fit-content;
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .myob {
+        filter: grayscale(0);
+        opacity: 1;
+    }
+    .words{
+        font-size: 18px!important;
+    }
+
+}
