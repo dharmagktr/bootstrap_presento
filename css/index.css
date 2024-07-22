@@ -233,6 +233,9 @@ textarea{
     border-bottom: 3px solid #e03a3c;
     width:fit-content;
 }
+.cur-sor{
+    cursor: no-drop!important;
+}
 
 
 
